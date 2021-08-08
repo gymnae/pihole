@@ -1,5 +1,3 @@
-# mirror to feed directly to pihole adlist updater https://github.com/jacklul/pihole-updatelists
 https://raw.githubusercontent.com/ookangzheng/dbl-oisd-nl/master/dbl.txt
-# these might be redundant
 https://adaway.org/hosts.txt
 https://v.firebog.net/hosts/lists.php?type=tick
