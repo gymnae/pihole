@@ -4,6 +4,7 @@ This image combines the work of [jacklul](https://github.com/jacklul/) and [chri
 1. Updates ad-blocker lists automatically and regularly
 2. Ingrates unbound for acting as a [DNS resolver](https://docs.pi-hole.net/guides/dns/unbound/)
 3. Runs as a self-contained docker image
+4. Builds for arm64 & amd64
 
 This approachs enables you to spin up one container and have a local or remote hosted pi-hole.
 
