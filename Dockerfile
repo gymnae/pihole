@@ -1,5 +1,5 @@
 FROM jacklul/pihole:latest
-RUN apt update && apt install -y unbound
+RUN apk add --no-cache unbound
 
 COPY lighttpd-external.conf /etc/lighttpd/external.conf 
 COPY unbound-pihole.conf /etc/unbound/unbound.conf.d/pi-hole.conf
